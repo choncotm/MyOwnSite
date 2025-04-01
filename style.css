@@ -111,7 +111,7 @@ body {
   overscroll-behavior-x: none; /* no sideways bounce */
 }
 .spotify-embed {
-  width: 80%;
+  width: 100%;
   height: 552px; /* taille normale */
   border-radius: 12px;
   border: none;
