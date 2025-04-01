@@ -98,3 +98,15 @@ html, body {
   width: 100%;
 }
 
+iframe {
+  max-width: 100%;
+  max-height: 300%;
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  touch-action: pan-y; /* disables horizontal swipe */
+  overscroll-behavior-x: none; /* no sideways bounce */
+}
