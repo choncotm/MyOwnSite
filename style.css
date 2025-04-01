@@ -36,3 +36,47 @@ footer {
   position: sticky;
   bottom: 0;
 }
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+  /* Responsive styles for phones and small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .project-date,
+  .project-description {
+    width: 100%;
+    text-align: left;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0;
+  }
+}
