@@ -110,3 +110,17 @@ body {
   touch-action: pan-y; /* disables horizontal swipe */
   overscroll-behavior-x: none; /* no sideways bounce */
 }
+.spotify-embed {
+  width: 80%;
+  height: 552px; /* taille normale */
+  border-radius: 12px;
+  border: none;
+}
+
+/* Sur téléphone */
+@media (max-width: 768px) {
+  .spotify-embed {
+    height: 300px; /* taille réduite */
+  }
+}
+
