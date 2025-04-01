@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    details {
+      margin-bottom: 1em;
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Courses</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projets.html">Projects</a></li>
+        <li><a href="cours.html">Class</a></li>
+        <li><a href="citations.html">Quotes</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <details>
+      <ul>
+        <details>
+          <summary>Networks</summary>
+          <ul>
+            <li><a href="pdfs/reseaux_intro.pdf" download>Introduction to Networks</a></li>
+            <li><a href="pdfs/network_config.pdf" download>Configuration Lab</a></li>
+          </ul>
+        </details>
+      </ul>
+      <ul>
+        <details>
+          <summary>Systems</summary>
+          <ul>
+            <li><a href="pdfs/linux_basics.pdf" download>Linux Basics</a></li>
+            <li><a href="pdfs/windows_admin.pdf" download>Windows Administration</a></li>
+          </ul>
+        </details>
+      </ul>
+      <ul>
+        <details>
+          <summary>Cybersecurity</summary>
+          <ul>
+            <li><a href="pdfs/security_basics.pdf" download>Security Fundamentals</a></li>
+            <li><a href="pdfs/firewall_config.pdf" download>Firewall Configuration</a></li>
+          </ul>
+      </ul>
+      </details>
+    </details>
+  </main>
+  <footer>
+    <p>&copy; 2025 Marques Thomas</p>
+  </footer>
+</body>
+</html>

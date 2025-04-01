@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #3989eba4;
+}
+header {
+  background-color: #111;
+  color: white;
+  padding: 1em;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.language-switch {
+  margin-top: 1em;
+}
+main {
+  padding: 2em;
+  flex: 1;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #ccc;
+  position: sticky;
+  bottom: 0;
+}
