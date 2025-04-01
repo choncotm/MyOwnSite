@@ -121,7 +121,7 @@ body {
 @media (max-width: 768px) {
   .spotify-embed {
     height: 300px; /* taille réduite */
-    width: 100%; 
+    width: 450px; 
   }
 }
 
