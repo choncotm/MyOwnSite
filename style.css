@@ -37,11 +37,12 @@ footer {
   bottom: 0;
 }
 .container {
+  max-width: 960px;
   width: 100%;
-  max-width: 800px;
   margin: 0 auto;
   padding: 16px;
 }
+
 
   /* Responsive styles for phones and small screens */
 @media (max-width: 768px) {
@@ -81,7 +82,19 @@ footer {
   }
 }
 header, footer {
-  width: 100%;
+  width: 100%; /* not 100vw */
+  max-width: 100%;
   box-sizing: border-box;
-  padding: 16px; /* or whatever you want */
+  padding: 16px;
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
