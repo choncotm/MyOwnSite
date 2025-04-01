@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Marques Thomas Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Marques Thomas' Website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projets.html">Projects</a></li>
+        <li><a href="cours.html">Courses</a></li>
+        <li><a href="citations.html">Quotes</a></li>
+      </ul>
+      <div class="language-switch">
+        <label for="language-select">Language:</label>
+        <select id="language-select" onchange="changeLanguage(this.value)">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>My name is Marques Thomas, I’m passionate about cybersecurity, networks, and IT systems. After a break from studies, I’m pursuing a BTS in Cybersecurity, Networks and Electronics. I’m also very into fitness and self-improvement.</p>
+    </section>
+
+    <section>
+      <h2>Find me on:</h2>
+      <ul>
+        <li><a href="https://open.spotify.com/user/choncotm" target="_blank">Spotify</a></li>
+        <li><a href="https://www.youtube.com/@choncotm" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com/choncotm" target="_blank">Instagram</a></li>
+        <li><a href="https://github.com/choncotm" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Marques Thomas</p>
+  </footer>
+
+  <script>
+    function changeLanguage(lang) {
+      window.location.href = lang === 'fr' ? 'index_fr.html' : 'index.html';
+    }
+  </script>
+</body>
+</html>
