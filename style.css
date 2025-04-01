@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, #0077cc, #cce6ff);
+  background: #3989eba4;
 }
 header {
   background-color: #111;
@@ -35,5 +35,5 @@ footer {
   background-color: #ccc;
   position: sticky;
   bottom: 0;
-  width: 100%;
 }
+
