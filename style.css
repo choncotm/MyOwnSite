@@ -125,3 +125,26 @@ body {
   }
 }
 
+.social-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+}
+
+.social-buttons button {
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.social-buttons button:hover {
+  background-color: #555;
+}
+
+
