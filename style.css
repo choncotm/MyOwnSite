@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #3989eba4;
+  background: #0e9c74e9;
 }
 header {
   background-color: #111;
@@ -167,3 +167,4 @@ body {
   background-color: white; /* White background on hover */
   color: black;            /* Black text on hover */
 }
+
