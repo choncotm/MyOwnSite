@@ -3,9 +3,9 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  display: flex;
+  display: flex;  
   flex-direction: column;
-  background: #fcf818;
+  background: #fff021;
 }
 header {
   background-color: #111;
