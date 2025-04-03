@@ -88,4 +88,15 @@
     </div>
     <p class="footer-bottom">© 2025 choncotm.exe – Tous droits réservés</p>
   </footer>
+  <script>
+    document.getElementById("language-select").addEventListener("change", function () {
+      const lang = this.value;
+      const currentPage = window.location.pathname;
+      const pageName = currentPage.substring(currentPage.lastIndexOf('/') + 1);
+      const baseName = pageName.replace("_fr", "").replace(".html", "");
+      const newPage = lang === "fr" ? `${baseName}_fr.html` : `${baseName}.html`;
+      window.location.href = newPage;
+    });
+  </script>
+</body>
 </html>
