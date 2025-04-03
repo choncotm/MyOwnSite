@@ -61,20 +61,31 @@
       <iframe class="spotify-embed" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5sbzdk2IoOuGHJeDBNM06V?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2025 Thomas Marques-Rain</p>
+  <footer class="footer-3col">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>À propos</h3>
+        <p>Développeur basé en 🇫🇷</p>
+        <p>Passionné</p>
+      </div>
+      <div class="footer-column">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index_fr.html">Accueil</a></li>
+          <li><a href="projets_fr.html">Projets</a></li>
+          <li><a href="cours_fr.html">Formation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:choncotmexe@outlook.com">Email</a></li>
+          <li><a href="https://github.com/choncotm" target="_blank">GitHub</a></li>
+          <li><a href="https://instagram.com/choncotm.exe" target="_blank">Instagram</a></li>
+          <li><a href="https://twitter.com/choncotmexe" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 choncotm.exe – Tous droits réservés</p>
   </footer>
-
-  <script>
-    document.getElementById("language-select").addEventListener("change", function () {
-      const lang = this.value;
-      const currentPage = window.location.pathname;
-      const pageName = currentPage.substring(currentPage.lastIndexOf('/') + 1);
-      const baseName = pageName.replace("_fr", "").replace(".html", "");
-      const newPage = lang === "fr" ? `${baseName}_fr.html` : `${baseName}.html`;
-      window.location.href = newPage;
-    });
-  </script>
-</body>
 </html>
