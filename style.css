@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   display: flex;  
   flex-direction: column;
-  background: #fff021;
+  background: #3581ad;
 }
 header {
   background-color: #111;
@@ -190,7 +190,7 @@ body {
 }
 
 .footer-column h3 {
-  color: #21ffff;
+  color: #3581ad;
   margin-bottom: 10px;
 }
 
