@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   display: flex;  
   flex-direction: column;
-  background: #3581ad;
+  background: #3e8d5c;
 }
 header {
   background-color: #111;
@@ -212,4 +212,8 @@ body {
 .footer-bottom {
   text-align: center;
   font-size: 14px;
+}
+
+.indev {
+  font-size: 15px;
 }

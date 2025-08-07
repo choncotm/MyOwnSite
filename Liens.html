@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Marques-Rain Thomas Portfolio</title>
+  <title>Self-dev</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
-    <h1>Welcome to Thomas Marques-Rain's Portfolio</h1>
-    <h2 class="indev">(In development)</h2>
+    <h1>All My Links</h1>
     <nav>
       <ul>
         <li><a href="index.html" class="nav-button">Home</a></li>
@@ -19,27 +19,11 @@
         <li><a href="Autres.html" class="nav-button">Others</a></li>
         <li><a href="citations.html"class="nav-button">Quotes</a></li>
       </ul>
-      <div class="language-switch">
-        <label for="language-select">Language:</label>
-        <select id="language-select">
-          <option value="en" selected>English</option>
-          <option value="fr">Français</option>
-        </select>
-      </div>
     </nav>
   </header>
-
   <main>
     <section>
-      <h2>About Me</h2>
-      <p>My name is Thomas Marques-Rain.
-Currently in the second year in Computer Science, Cybersecurity, Networks, and Electronics, I am passionate about computer systems, networking, and security.
-After resuming my studies, I am fully committed to developing my technical skills through personal projects, past internships, and continuous monitoring of digital trends.
-</p>
-    </section>
-
-    <section>
-      <h2>Find me on these important links:</h2>
+      <h2>Find me on:</h2>
         <!--
         <li><a href="https://open.spotify.com/user/d4blw8ngpdw6tcq5izs06nfxm" target="_blank">Spotify</a></li>
         <li><a href="https://www.youtube.com/@choncotm" target="_blank">YouTube</a></li>
@@ -56,9 +40,14 @@ After resuming my studies, I am fully committed to developing my technical skill
           <a href="https://twitter.com/choncotmexe" target="_blank">
             <button>Twitter</button>
           </a>
+          <a href="https://www.instagram.com/choncotm.exe" target="_blank">
+            <button>Instagram</button>
+          </a>
+          <a href="https://open.spotify.com/user/d4blw8ngpdw6tcq5izs06nfxm" target="_blank">
+            <button>Spotify</button>
+          </a>
         </div>
     </section>
-
   </main>
   <footer class="footer-3col">
     <div class="footer-columns">
@@ -89,15 +78,5 @@ After resuming my studies, I am fully committed to developing my technical skill
     </div>
     <p class="footer-bottom">© 2025 choncotm.exe</p>
   </footer>
-  <script>
-    document.getElementById("language-select").addEventListener("change", function () {
-      const lang = this.value;
-      const currentPage = window.location.pathname;
-      const pageName = currentPage.substring(currentPage.lastIndexOf('/') + 1);
-      const baseName = pageName.replace("_fr", "").replace(".html", "");
-      const newPage = lang === "fr" ? `${baseName}_fr.html` : `${baseName}.html`;
-      window.location.href = newPage;
-    });
-  </script>
 </body>
 </html>
